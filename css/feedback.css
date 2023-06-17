@@ -1,0 +1,48 @@
+#feedback {
+  padding: 160px 40px;
+}
+
+.feedback-container {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 25px;
+}
+
+.feedback-item {
+  padding: 20px 0;
+  flex: 1 1 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback {
+  display: grid;
+  justify-items: center;
+}
+
+.feedback p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  max-width: 160px;
+}
+
+.feedback-author {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.author-text h3 {
+  font-size: 14px;
+}
+
+.author-text span {
+  display: block;
+  font-size: 13px;
+  margin-top: 3px;
+}

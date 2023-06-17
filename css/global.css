@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  font-size: 14px;
+  color: #737373;
+  background: #fafafa;
+}
+
+@media (max-width: 800px) {
+  #pacotes,
+  #cursos,
+  #works,
+  #feedback,
+  #subscribe {
+    padding: 80px 20px;
+  }
+}
